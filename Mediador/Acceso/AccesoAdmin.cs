@@ -1,5 +1,4 @@
-﻿using Mediador.Acceso.Contracts;
-using Sistema;
+﻿using Sistema;
 using System;
 using System.Collections.Generic;
 using System.Linq;

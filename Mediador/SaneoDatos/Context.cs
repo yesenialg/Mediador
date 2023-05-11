@@ -1,19 +1,19 @@
-﻿using Mediador.SaneoDatos.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Mediador.SaneoDatos
+﻿namespace Mediador.SaneoDatos
 {
     public class Context
     {
         public IValidador validador;
 
-        public void setValidador(IValidador validador) 
+        public void setValidador(string tipoValidador) 
         {
-            this.validador = validador;
+            if (tipoValidador == "codigo")
+            {
+                this.validador = new ValidatorCodigo();
+            }
+            else if (tipoValidador == "string")
+            {
+                this.validador = new ValidatorString();
+            }
         }
 
         public bool validarData(string datoValidar) 

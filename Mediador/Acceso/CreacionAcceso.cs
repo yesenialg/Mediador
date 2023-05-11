@@ -1,6 +1,4 @@
-﻿using Mediador.Acceso.Contracts;
-
-namespace Mediador.Acceso
+﻿namespace Mediador.Acceso
 {
     public class CreacionAcceso
     {

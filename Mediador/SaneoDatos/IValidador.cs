@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mediador.SaneoDatos.Contracts
+namespace Mediador.SaneoDatos
 {
     public interface IValidador
     {
