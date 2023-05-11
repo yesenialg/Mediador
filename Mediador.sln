@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediador", "Mediador\Mediador.csproj", "{5537D033-78C4-47A1-9A31-EBA106F967F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistema", "Sistema\Sistema.csproj", "{A9F9B42D-D75F-4EF5-84E2-07DD15636DCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClienteApi", "ClienteApi\ClienteApi.csproj", "{E9EA973C-4E67-4C08-8D5D-C3C198DA8986}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5537D033-78C4-47A1-9A31-EBA106F967F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5537D033-78C4-47A1-9A31-EBA106F967F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5537D033-78C4-47A1-9A31-EBA106F967F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5537D033-78C4-47A1-9A31-EBA106F967F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F9B42D-D75F-4EF5-84E2-07DD15636DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F9B42D-D75F-4EF5-84E2-07DD15636DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F9B42D-D75F-4EF5-84E2-07DD15636DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F9B42D-D75F-4EF5-84E2-07DD15636DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9EA973C-4E67-4C08-8D5D-C3C198DA8986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EA973C-4E67-4C08-8D5D-C3C198DA8986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EA973C-4E67-4C08-8D5D-C3C198DA8986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EA973C-4E67-4C08-8D5D-C3C198DA8986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ED6F791-80FD-4C36-AD7F-AA337D378C20}
+	EndGlobalSection
+EndGlobal
